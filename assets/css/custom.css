@@ -1,0 +1,108 @@
+/* Šriftas */
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #e0e0e0;
+}
+
+/* Antraštės */
+h1 {
+    font-size: 60px;
+    color: #4db8ff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 42px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #4db8ff;
+}
+
+h4 {
+    font-size: 24px;
+    color: #87ceeb;
+}
+
+h5 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #cfcfcf;
+    text-align: justify;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #cfcfcf;
+    text-align: justify;
+}
+
+/* Mygtukai */
+.btn
+button {
+    background: #1e88e5;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: 2px solid #42a5f5;
+    transition: all 0.3s ease;
+}
+
+.btn:hover,
+button:hover {
+    background: #42a5f5;
+    color: #000;
+    transform: scale(1.05);
+}
+
+.btn:active,
+button:active {
+    background: #1565c0;
+    transform: scale(0.98);
+}
+
+/* Nuorodos */
+a {
+    color: #4fc3f7;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #81d4fa;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #ffffff;
+}
+
+/* Margin ir Padding skiltyse */
+#about,
+#resume,
+#portfolio {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 40px;
+}
+
+/* Turinio blokai */
+.service-card,
+.resume-item,
+.portfolio-item {
+    padding: 25px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 140, 255, 0.3);
+}
