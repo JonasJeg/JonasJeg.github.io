@@ -48,9 +48,8 @@ p {
 }
 
 /* Mygtukai */
-.btn
-button {
-    background: #1e88e5;
+.hero .hero-actions .btn.btn-primary {
+    background-color: #1ba87e;
     color: #ffffff;
     padding: 12px 24px;
     border-radius: 10px;
@@ -58,22 +57,15 @@ button {
     transition: all 0.3s ease;
 }
 
-.btn:hover,
-button:hover {
-    background: #42a5f5;
+.hero .hero-actions .btn.btn-primary:hover{
+    background: #ce5f5f;
     color: #000;
     transform: scale(1.05);
 }
 
-.btn:active,
-button:active {
-    background: #1565c0;
-    transform: scale(0.98);
-}
-
 /* Nuorodos */
 a {
-    color: #4fc3f7;
+    color: #f536e5;
     text-decoration: none;
     font-weight: 600;
     transition: 0.3s;
@@ -105,4 +97,86 @@ a:active{
     margin: 20px;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 140, 255, 0.3);
+}
+
+/* Navigacijos juosta */
+.navmenu {
+    background-color: #523736c5;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navmenu a {
+    color: #d11717;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+/*Progreso juostos*/
+.skills .skill-box .progress .progress-bar {
+    background-color: #39ccd6;
+    border-radius: 10px;
+}
+
+.resume .skill-item .progress .progress-bar {
+    height: 10px;
+    background-color: #39ccd6;
+    border-radius: 10px;
+}
+
+/*Nenumeruotas sąrašas*/
+ul{
+    list-style: none;
+}
+
+ul li::before {
+    content: "• ";
+    color: #4db8ff;
+    font-weight: bold;
+}
+
+/*Numeruotas sąrašas*/
+ol {
+    counter-reset: etapai;
+    list-style: none;
+}
+
+ol li {
+    counter-increment: etapai;
+}
+
+ol li::before {
+    content: counter(etapai) ". ";
+    color: #4db8ff;
+    font-weight: bold;
+}
+
+/*Įdėtinis sąrašas*/
+ul ul {
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #ffd54f;
+    font-size: 0.9em;
+}
+
+/*Lentelė*/
+table th {
+    background-color: #0f7417;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+table tr:nth-child(even) {
+    background-color: #1e1e1e;
+}
+
+table tr:nth-child(odd) {
+    background-color: #2e2e2e;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
 }
