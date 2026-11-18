@@ -425,3 +425,20 @@ table th, table td {
         transform: rotate(360deg);
     }
 }
+
+/* Error žinutės*/
+
+.error-text {
+    color: red;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+.error {
+    border: 2px solid red !important;
+}
+
+.valid {
+    border: 2px solid green !important;
+}
